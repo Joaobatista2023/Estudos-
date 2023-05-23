@@ -1,5 +1,6 @@
-#include <stdio.h>\\ sobre o void
+//Sobre o void  
 
+#include <stdio.h>
 int fatorial(int n) {
     // Condição de parad
     if (n == 0)
@@ -18,8 +19,7 @@ int main() {
 
 
 
-
-\\  Duvida sobre o  void
+// Duvida sobre o codifgo
 #include <stdio.h>
 
 int fatorial(int n) {
