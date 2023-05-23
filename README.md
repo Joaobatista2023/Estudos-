@@ -22,18 +22,18 @@ int main() {
 // Duvida sobre o codifgo
 #include <stdio.h>
 
-int fatorial(int n) {
-    // Condição de parada
-    if (n == 0)
+int fatorial(int numero)
+{
+    if (numero == 1)
+    {
         return 1;
+    }
 
-    // Chamada recursiva
-    return n * fatorial(n - 1);
+    return numero * fatorial(numero - 1);
 }
 
-int main() {
-    int num = 5;
-    int resultado = fatorial(num);
-    printf("O fatorial de %d é %d\n", num, resultado);
-    return 0;
+void main()
+{
+    int resultado = fatorial(5);
+    printf("%d", resultado);
 }
