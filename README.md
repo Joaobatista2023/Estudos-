@@ -1,4 +1,4 @@
-//Sobre o void  
+//Sobre o void.   
 
 #include <stdio.h>
 int fatorial(int n) {
@@ -19,7 +19,7 @@ int main() {
 
 
 
-// Duvida sobre o codifgo
+// Duvida sobre o codigo 
 #include <stdio.h>
 
 int fatorial(int numero)
